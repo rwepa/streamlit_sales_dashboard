@@ -1,5 +1,0 @@
-# requirements.txt
-pandas
-plotly.express
-streamlit
-openpyxl
