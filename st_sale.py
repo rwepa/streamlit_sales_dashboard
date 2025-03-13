@@ -21,8 +21,6 @@ st.set_page_config(page_title="銷售儀表板", page_icon=":bar_chart:", layout
 
 # 快取資料裝飾子
 @st.cache_data
-
-# 匯入Excel檔案
 def get_data_from_excel():
     df = pd.read_excel(
         io="data/superstore_tw.xlsx",
