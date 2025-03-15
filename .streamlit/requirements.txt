@@ -1,6 +1,5 @@
 # requirements.txt
 pandas
 plotly.express
-plotly
 streamlit
 openpyxl
